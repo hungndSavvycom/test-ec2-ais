@@ -3,7 +3,7 @@ const fs = require('fs')
 
 const csvFilePath = 'output-previous.csv';
 const csvReportPath = 'REPORT.csv';
-const endPoint = 'http://localhost:3005/image/downloader';
+const endPoint = 'http://beehive.internal.trendii.com/image/downloader';
 
 const sendRequests = async (urls) => {
 	console.log('Start import images');
